@@ -1,0 +1,93 @@
+body {
+	background-image: url("zimg.jpg");
+	
+}
+
+.textview{
+  display: inline-block;
+	margin: 50px;
+	width: 190px;
+	height: 60px;
+	font-size: 40px;
+    font-weight: bold;
+    background-color: rgba(245, 242, 237, 0.589);
+	border: none;
+}
+
+.equalButton {
+    cursor: pointer;
+	display: inline-block;
+	margin: 30px;
+	width: 72px;
+	height:141px;
+    outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+  
+}
+
+.button {
+    cursor: pointer;
+	display: inline-block;
+	margin: 25px;
+	width: 62px;
+	height: 62px;
+	font-size: 40px;
+	font-weight: bold;
+	border-radius: 20px;
+	outline: none;
+  
+}
+
+.button:active, .allclearButton:active,.equalButton:active{
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+
+
+
+.button:hover,.equalButton:hover {
+	background-color: #FFBA75;
+	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #AE5700;
+	border-left: 2px solid #AE5700;
+}
+
+.allclearButton {
+  border-radius: 10px;
+	color: #FFF;
+    margin: 25px;
+	width: 62px;
+	height: 62px;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #D20000;
+	border-top: 2px solid #FF8484;
+	border-right: 2px solid #FF8484;
+	border-bottom: 2px solid #800000;
+	border-left: 2px solid #800000;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+	outline: none;
+}
+
+h1{
+	color:#F1620B;
+	font-size: 62px;
+    text-justify: newspaper;
+    text-align: center;
+
+}
+.container{
+		background: rgba(146, 142, 142, 0.589);
+		background-size: cover;
+		position:absolute;
+        top:55%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%)
+}
+
+
+      
